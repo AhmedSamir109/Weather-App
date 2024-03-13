@@ -6,7 +6,7 @@ var SearchWeather = document.getElementById('SearchWeather')
 
 //get information from api
 async function Weather(klma){
-  var request =await fetch('http://api.weatherapi.com/v1/forecast.json?key=eeae70c476014afc996133359221101&days=7&q='+klma)
+  var request =await fetch('https://api.weatherapi.com/v1/forecast.json?key=eeae70c476014afc996133359221101&days=7&q='+klma)
   var getdata =await request.json();
   database = getdata;
   displayWeather()
