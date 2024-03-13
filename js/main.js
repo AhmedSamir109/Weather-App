@@ -93,7 +93,7 @@ function displayWeather(){
         <h2 class="text-white pt-2">${database.forecast.forecastday[2].day.maxtemp_c}&#8451;</h2>
         <p>${database.forecast.forecastday[2].day.mintemp_c}&#176;</p>
       </div>
-      <p class="text-center pb-5 colormood">${database.forecast.forecastday[2].day.condition.text}</p> 
+      <p class="text-center padding-bottom colormood">${database.forecast.forecastday[2].day.condition.text}</p> 
     </div>
   </div>
 </div>

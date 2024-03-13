@@ -37,10 +37,15 @@ body{
 
 .card{
     transition: 0.5s;
+    margin-bottom: 20px;
 }
 
 .card:hover{
     transform: scale(1.03);
     box-shadow: 1px 1px 20px lightblue;
 
+}
+
+.padding-bottom{
+    padding-bottom: 30px;
 }
